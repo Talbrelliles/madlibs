@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 class Content extends Component{
     render(){
         const  data = this.props.data;
+        
      // <span>{data.indexOf(data.color)}</span>
-     this.props.data.map((object,index)=>{
-         console.log(index)
-     })
+   //  this.props.data.map((object,index)=>{
+         //console.log(index)
+   //  })
         return(
            
           
