@@ -6,7 +6,7 @@ const Header =() =>{
         <div className="header__skew"></div>
         <div className="header__border"></div>
         <h1>devcamp mad libs</h1>
-        <p>make a dank story</p>
+        <p className="bottomtext">make a dank story</p>
         </div>
         )
 }
