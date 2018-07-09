@@ -10,8 +10,12 @@
     font-size: 22px;
     text-align: center;
 }
-
-
+.gray{
+    background: #B3B3B3 ;
+}
+.green{
+    background: #00CB79;
+}
 
 .home{
     position: relative;
@@ -98,14 +102,16 @@ button:focus{
  
 button{
     justify-self: center;
-    transform: translateY(50%);
+    
 }
 &__generate{
    background-color: #00CB79;
+  transform: translateY(-300px);
    @include button;
 }
 
 &__clear{
+    transform: translateY(50%);
     background-color: #45B0E5;
     @include button;
 }
@@ -146,7 +152,7 @@ button{
   }
   &__number{
            grid-column: number-s/number-e; 
-           background-color: #00CB79;
+          
            color: white;
            font-size: 20px;
            text-align: center;
@@ -193,4 +199,23 @@ width: 403px;
         font-size: 16px;
         font-weight: 300;
   }
+  
+ 
 }
+
+
+.card__content__label{
+    
+    color: white;
+    height: 18px;
+    width: 18px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 14px;
+   
+    text-align: center;
+   // padding-top: 3px;
+    display: inline-block;
+    margin: 4px;
+  }
